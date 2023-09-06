@@ -83,6 +83,43 @@ export const projects: Project[] = [
     deployment: {
       web: 'https://github.com/miliariadnane/advanced-microservices',
     },
+    subProjects: [
+      {
+        title: 'Demoing microservices architecture in spring ecosystem with simple e-commerce application',
+        description: 'This repo contains demo about how to build simple ecommerce microservices app from scratch step by step based on spring boot (spring cloud, spring cloud gateway, spring data JPA, spring web, ...), deployed on Kubernetes and AWS using EKS. The app composed of 5 microservices [customer - product - order - payment - notification] communicating with each other using REST API (+ Open Feign) and messaging system (RabbitMQ).',
+        repository: 'https://github.com/miliariadnane/demo-microservices',
+        deployment: {},
+      },
+    ],
+  },
+  {
+    title: 'Hexagonal Architecture in Spring Boot with DDD - Product Discount Service',
+    slug: 'product-discount-service-hexagonal-architecture',
+    banner: '/static/projects/hexagonal-arch/banner.png',
+    website: 'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
+    description:
+      'A practical demonstration of Hexagonal Architecture in Spring Boot with Domain-Driven Design (DDD) principles for a dynamic Product Discount Service. This project emphasizes clean code, testability, and architectural best practices.',
+    shortDescription:
+      'This application is not business oriented and my focus is mostly on technical part, I just want to implement a sample app from scratch with microservice architecture using different technologies, principles and patterns.',
+    repository: 'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
+    stack: [
+      Stack.java,
+      Stack.springBoot,
+      Stack.microservices,
+      Stack.distributedSystems,
+      Stack.postgres,
+      Stack.mongo,
+      Stack.docker,
+    ],
+    dimensions: [250, 610],
+    screenshots: [
+      '/static/projects/hexagonal-arch/banner.png',
+      '/static/projects/hexagonal-arch/screenshots/hexa-arch-and-ddd.png',
+      '/static/projects/hexagonal-arch/screenshots/hexa-arch-illustration.png',
+    ],
+    deployment: {
+      web: 'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
+    },
     subProjects: [],
   },
 ];

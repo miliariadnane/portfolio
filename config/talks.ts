@@ -13,6 +13,20 @@ export interface Talk {
 
 export const talks: Talk[] = [
     {
+        title: 'Hexagonal Architecture Demystified: Everything You Need to Know !',
+        slug: 'hexagonal-architecture-demystified-everything-you-need-to-know',
+        tags: ['Hexagonal Arch', 'Clean Arch', 'DDD', 'Distributed Systems'],
+        date: '2023-09-05',
+        description:
+            'Hexagonal architecture was a software design pattern that decoupled the applications core domain from its dependencies. This made the application more flexible and easier to test, as well as made it easier to adapt the application to new requirements or technologies. During the presentation, I delved into the principles of hexagonal architecture and saw how they were applied to the development of a simple e-commerce microservice application. I also analyzed the advantages and challenges associated with hexagonal architecture, providing insights on its implementation through a real-world example involving a Spring Boot application with Domain-Driven Design (DDD) principles.',
+        watchTalk: '',
+        demosList: [
+            'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
+        ],
+        slides: 'https://docs.google.com/presentation/d/1aRHpDMAcnK5wUJhduYWKhapjGCC00TN2-AlU_M-qILs/edit?usp=sharing',
+        banner: '/static/talks/transperfect-talk/hexagonal-architecture.png',
+    },
+    {
         title: 'My Journey Into The World Of Microservices Using Spring Cloud',
         slug: 'my-journey-into-the-world-of-microservices-using-spring-cloud',
         tags: ['Spring Cloud', 'Microservices'],
