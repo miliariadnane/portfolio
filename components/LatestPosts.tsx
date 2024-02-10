@@ -6,7 +6,6 @@ interface LatestPostsProps {
   latestPosts: PostFrontMatter[];
 }
 const LatestPosts = ({ latestPosts }: LatestPostsProps) => {
-  console.log({ latestPosts });
   return (
     <div className='dark:text-white sm:col-span-4 sm:py-10 lg:col-span-5'>
       <div>
