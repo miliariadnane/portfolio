@@ -67,6 +67,9 @@ export default function Talk({
         <div className={'flex gap-4'}>
           {React.Children.toArray(
             demosList.map((demo, index) => {
+              if (!demo) {
+                return null;
+              }
               return (
                 <a href={demo}>
                   <H2 className='!text-blue-500 underline'>GitHub Repo Link {index + 1}</H2>
