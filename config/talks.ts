@@ -5,7 +5,7 @@ export interface Talk {
     tags: string[];
     date: string;
     description: string;
-    watchTalk: string;
+    watchTalk?: string;
     demosList: string[];
     slides: string;
     banner: string;
