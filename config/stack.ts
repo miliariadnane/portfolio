@@ -163,7 +163,7 @@ export const StackInfo: Record<Stack, StackInfoMap> = {
     value: 'CNN',
     color: Colors.cnn,
   },
-  [Stack.DeepLearning4j]: {
+  [Stack.deepLearning4j]: {
     value: 'DeepLearning4j',
     color: Colors.deeplearning4j,
   },
