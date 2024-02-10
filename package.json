@@ -3,7 +3,7 @@
   "version": "5.0.0",
   "private": true,
   "engines": {
-    "node": "18.17.0"
+    "node": "18.18.2"
   },
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
