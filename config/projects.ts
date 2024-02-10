@@ -33,6 +33,36 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'Spring Boot Documentation Bot - GEN AI / RAG Bot',
+    slug: 'spring-boot-documentation-bot',
+    banner: '/static/projects/spring-boot-doc-bot/banner.png',
+    description: 'Documentation bot powered by an LLM using @langchain4j to swiftly find answers to your Spring Boot questions. It provides easy browsing of Spring documentation and leverages the RAG technique to retrieve relevant details on demand.',
+    repository: 'https://github.com/miliariadnane/spring-boot-doc-rag-bot',
+    stack: [Stack.java, Stack.springBoot, Stack.GenAI, Stack.langchain4j],
+    dimensions: [360, 640],
+    screenshots: [],
+    deployment: {
+      web: 'https://github.com/miliariadnane/spring-boot-doc-rag-bot',
+    },
+    website: 'https://github.com/miliariadnane/spring-boot-doc-rag-bot',
+    subProjects: [],
+  },
+  {
+    title: 'Herb Classifier - AI APP : Parsley or Coriander ?',
+    slug: 'herb-classifier',
+    banner: '/static/projects/herb-classifier/banner.png',
+    description: 'A simple web application that classifies images of coriander (Qazbor) and parsley (Maadanous) herbs using a deep learning model built with DeepLearning4j.',
+    repository: 'https://github.com/miliariadnane/tasks-planner-app',
+    stack: [Stack.java, Stack.springBoot, Stack.deepLearning, Stack.imageClassification, Stack.deepLearning4j, Stack.cnn],
+    dimensions: [360, 640],
+    screenshots: [],
+    deployment: {
+      web: 'https://herbify-app.vercel.app/',
+    },
+    website: 'https://herbify-app.vercel.app/',
+    subProjects: [],
+  },
+  {
     title: 'Hexagonal Architecture in Spring Boot with DDD - Product Discount Service',
     slug: 'product-discount-service-hexagonal-architecture',
     banner: '/static/projects/hexagonal-arch/banner.png',
@@ -60,47 +90,6 @@ export const projects: Project[] = [
     deployment: {
       web: 'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
     },
-    subProjects: [],
-  },
-  {
-    title: 'Herb Classifier - AI APP : Parsley or Coriander ?',
-    slug: 'herb-classifier',
-    banner: '/static/projects/herb-classifier/banner.png',
-    description: 'A simple web application that classifies images of coriander (Qazbor) and parsley (Maadanous) herbs using a deep learning model built with DeepLearning4j.',
-    repository: 'https://github.com/miliariadnane/tasks-planner-app',
-    stack: [Stack.java, Stack.springBoot, Stack.deepLearning, Stack.imageClassification, Stack.deepLearning4j, Stack.cnn],
-    dimensions: [360, 640],
-    screenshots: [],
-    deployment: {
-      web: 'https://github.com/miliariadnane/herb-classifier-api',
-      // android: '',
-      // ios: '',
-    },
-    website: 'https://herbify-app.vercel.app/',
-    subProjects: [],
-  },
-  {
-    title: 'Tasks Planner App',
-    slug: 'tasks-planner-app',
-    banner: '/static/projects/tasksplanner/banner.png',
-    description:
-      'A minimalist collaborative app for scheduling and managing your tasks with the team and getting notifications through discord.',
-    repository: 'https://github.com/miliariadnane/tasks-planner-app',
-    stack: [Stack.springBoot, Stack.angular, Stack.postgres, Stack.aws],
-    dimensions: [360, 640],
-    screenshots: [
-      '/static/projects/tasksplanner/screenshots/new-task.png',
-      '/static/projects/tasksplanner/screenshots/users-list.png',
-      '/static/projects/tasksplanner/screenshots/discord-notification.png',
-      '/static/projects/tasksplanner/screenshots/monitoring-dashboard.png',
-      '/static/projects/tasksplanner/screenshots/main-page.png',
-    ],
-    deployment: {
-      web: 'https://github.com/miliariadnane/tasks-planner-app',
-      // android: '',
-      // ios: '',
-    },
-    website: 'https://github.com/miliariadnane/tasks-planner-app',
     subProjects: [],
   },
   {
@@ -138,5 +127,29 @@ export const projects: Project[] = [
         deployment: {},
       },
     ],
+  },
+  {
+    title: 'Tasks Planner App',
+    slug: 'tasks-planner-app',
+    banner: '/static/projects/tasksplanner/banner.png',
+    description:
+      'A minimalist collaborative app for scheduling and managing your tasks with the team and getting notifications through discord.',
+    repository: 'https://github.com/miliariadnane/tasks-planner-app',
+    stack: [Stack.springBoot, Stack.angular, Stack.postgres, Stack.aws],
+    dimensions: [360, 640],
+    screenshots: [
+      '/static/projects/tasksplanner/screenshots/new-task.png',
+      '/static/projects/tasksplanner/screenshots/users-list.png',
+      '/static/projects/tasksplanner/screenshots/discord-notification.png',
+      '/static/projects/tasksplanner/screenshots/monitoring-dashboard.png',
+      '/static/projects/tasksplanner/screenshots/main-page.png',
+    ],
+    deployment: {
+      web: 'https://github.com/miliariadnane/tasks-planner-app',
+      // android: '',
+      // ios: '',
+    },
+    website: 'https://github.com/miliariadnane/tasks-planner-app',
+    subProjects: [],
   },
 ];
