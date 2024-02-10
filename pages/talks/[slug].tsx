@@ -68,8 +68,8 @@ export default function Talk({
           {React.Children.toArray(
             demosList.map((demo, index) => {
               return (
-                <a href={watchTalk}>
-                  <H2 className='!text-blue-500 underline'>Demo {index + 1}</H2>
+                <a href={demo}>
+                  <H2 className='!text-blue-500 underline'>GitHub Repo Link {index + 1}</H2>
                 </a>
               );
             }),
