@@ -67,7 +67,7 @@ export default function Talk({
         <div className={'flex gap-4'}>
           {React.Children.toArray(
             demosList.map((demo, index) => {
-              if (!demo) {
+              if (!demo || demo.watchTalk === '') {
                 return null;
               }
               return (
