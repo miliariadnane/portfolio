@@ -13,6 +13,20 @@ export interface Talk {
 
 export const talks: Talk[] = [
     {
+        title: 'Java for ML ? Yes, It’s possible ! A 101 Hands-On guide to deep learning',
+        slug: 'java-for-ml-yes-its-possible-a-101-hands-on-guide-to-deep-learning',
+        tags: ['Java', 'Deep Learning', 'Machine Learning', 'Image Classification', 'CNN'],
+        date: '2024-01-03',
+        description:
+        'In this talk, we explored the feasibility of using Java for Machine Learning. We delved into the workings of image recognition, explaining how deep learning models recognize objects in an image. We discussed the core operations of Convolution Neural Networks (CNNs) - Convolution, Pooling, and Activation. The highlight of the talk was a demo of a Spring Boot application that classifies images of coriander (Qazbor) and parsley (Maadanous) herbs using a deep learning model built with DeepLearning4j.',
+        watchTalk: '',
+        demosList: [
+            'https://github.com/miliariadnane/herb-classifier-api',
+        ],
+        slides: 'https://docs.google.com/presentation/d/1laIMblFrNtsICfyP6Vit5DiWNiwD1gPZN-waFA1f7wg/edit?usp=sharing',
+        banner: '/static/talks/transperfect-talk/java-for-ml.png',
+    },
+    {
         title: 'Hexagonal Architecture Demystified: Everything You Need to Know !',
         slug: 'hexagonal-architecture-demystified-everything-you-need-to-know',
         tags: ['Hexagonal Arch', 'Clean Arch', 'DDD', 'Distributed Systems'],
