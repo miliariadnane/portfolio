@@ -35,6 +35,16 @@ export enum Stack {
   // Architecture
   distributedSystems,
   microservices,
+
+  // AI
+  deepLearning,
+  machineLearning,
+  imageClassification,
+  cnn,
+  deepLearning4j,
+  LLM,
+  langchain4j,
+  GenAI,
 }
 
 export const WorkStack = [
@@ -137,4 +147,37 @@ export const StackInfo: Record<Stack, StackInfoMap> = {
     value: 'Microservices',
     color: Colors.microservices,
   },
+  [Stack.machineLearning]: {
+    value: 'Machine Learning',
+    color: Colors.machinelearning,
+  },
+  [Stack.deepLearning]: {
+    value: 'Deep Learning',
+    color: Colors.deeplearning,
+  },
+  [Stack.imageClassification]: {
+    value: 'Image Classification',
+    color: Colors.imageclassification,
+  },
+  [Stack.cnn]: {
+    value: 'CNN',
+    color: Colors.cnn,
+  },
+  [Stack.DeepLearning4j]: {
+    value: 'DeepLearning4j',
+    color: Colors.deeplearning4j,
+  },
+  [Stack.LLM]: {
+    value: 'LLM',
+    color: Colors.llm,
+  },
+  [Stack.langchain4j]: {
+    value: 'Langchain4j',
+    color: Colors.langchain4j,
+  },
+  [Stack.GenAI]: {
+    value: 'GenAI',
+    color: Colors.genai,
+  },
+
 };

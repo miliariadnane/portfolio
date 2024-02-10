@@ -33,6 +33,53 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'Hexagonal Architecture in Spring Boot with DDD - Product Discount Service',
+    slug: 'product-discount-service-hexagonal-architecture',
+    banner: '/static/projects/hexagonal-arch/banner.png',
+    website: 'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
+    description:
+      'A practical demonstration of Hexagonal Architecture in Spring Boot with Domain-Driven Design (DDD) principles for a dynamic Product Discount Service. This project emphasizes clean code, testability, and architectural best practices.',
+    shortDescription:
+      'This application is not business oriented and my focus is mostly on technical part, I just want to implement a sample app from scratch with microservice architecture using different technologies, principles and patterns.',
+    repository: 'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
+    stack: [
+      Stack.java,
+      Stack.springBoot,
+      Stack.microservices,
+      Stack.distributedSystems,
+      Stack.postgres,
+      Stack.mongo,
+      Stack.docker,
+    ],
+    dimensions: [250, 610],
+    screenshots: [
+      '/static/projects/hexagonal-arch/banner.png',
+      '/static/projects/hexagonal-arch/screenshots/hexa-arch-and-ddd.png',
+      '/static/projects/hexagonal-arch/screenshots/hexa-arch-illustration.png',
+    ],
+    deployment: {
+      web: 'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
+    },
+    subProjects: [],
+  },
+  {
+    title: 'Herb Classifier - AI APP : Parsley or Coriander ?',
+    slug: 'herb-classifier',
+    banner: '/static/projects/herb-classifier/banner.png',
+    description: 'A simple web application that classifies images of coriander (Qazbor) and parsley (Maadanous) herbs using a deep learning model built with DeepLearning4j.',
+    repository: 'https://github.com/miliariadnane/tasks-planner-app',
+    stack: [Stack.java, Stack.springBoot, Stack.deepLearning, Stack.imageClassification, Stack.deepLearning4j, Stack.cnn],
+    dimensions: [360, 640],
+    screenshots: [],
+    deployment: {
+      web: 'https://github.com/miliariadnane/herb-classifier-api',
+      // android: '',
+      // ios: '',
+    },
+    website: 'https://herbify-app.vercel.app/',
+    subProjects: [],
+  },
+  {
     title: 'Tasks Planner App',
     slug: 'tasks-planner-app',
     banner: '/static/projects/tasksplanner/banner.png',
@@ -91,35 +138,5 @@ export const projects: Project[] = [
         deployment: {},
       },
     ],
-  },
-  {
-    title: 'Hexagonal Architecture in Spring Boot with DDD - Product Discount Service',
-    slug: 'product-discount-service-hexagonal-architecture',
-    banner: '/static/projects/hexagonal-arch/banner.png',
-    website: 'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
-    description:
-      'A practical demonstration of Hexagonal Architecture in Spring Boot with Domain-Driven Design (DDD) principles for a dynamic Product Discount Service. This project emphasizes clean code, testability, and architectural best practices.',
-    shortDescription:
-      'This application is not business oriented and my focus is mostly on technical part, I just want to implement a sample app from scratch with microservice architecture using different technologies, principles and patterns.',
-    repository: 'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
-    stack: [
-      Stack.java,
-      Stack.springBoot,
-      Stack.microservices,
-      Stack.distributedSystems,
-      Stack.postgres,
-      Stack.mongo,
-      Stack.docker,
-    ],
-    dimensions: [250, 610],
-    screenshots: [
-      '/static/projects/hexagonal-arch/banner.png',
-      '/static/projects/hexagonal-arch/screenshots/hexa-arch-and-ddd.png',
-      '/static/projects/hexagonal-arch/screenshots/hexa-arch-illustration.png',
-    ],
-    deployment: {
-      web: 'https://github.com/miliariadnane/product-discount-service-hexagonal-architecture',
-    },
-    subProjects: [],
   },
 ];

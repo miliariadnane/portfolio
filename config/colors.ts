@@ -30,6 +30,16 @@ export const Colors = {
   rabbitmq: '#FF6600',
   kafka: '#000000',
 
+  // AI
+  deeplearning: '#FF5733',
+  machinelearning: '#C70039',
+  imageclassification: '#900C3F',
+  cnn: '#581845',
+  deeplearning4j: '#1C2833',
+  langchain4j: '#17202A',
+  genai: '#21618C',
+  llm: '#5B2C6F',
+
   // Social
   linkedin: '#0077B5',
   twitter: '#1DA1F2',
