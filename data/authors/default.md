@@ -4,7 +4,7 @@ shortname: Adnane
 avatar: /static/avatar.jpg
 occupation: Software Engineer | Backend Developer
 company: '@Transperfect'
-resume: /static/Work_Resume_MILIARI_Adnane.pdf
+resume: https://docs.google.com/document/d/1OVGlHbt0y7usZBSShuMmNlERqTzWBSjjtolaqaoACrs/edit?usp=sharing
 email: miliari.adnane@gmail.com
 twitter: https://twitter.com/miliaridnane
 linkedin: https://www.linkedin.com/in/miliariadnane
