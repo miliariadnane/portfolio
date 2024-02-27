@@ -45,6 +45,14 @@ const LatestPosts = ({ latestPosts }: LatestPostsProps) => {
           ))}
         </div>
       </div>
+      <div className='mt-3'>
+        <Link
+          href="/blog"
+          className='text-base font-semibold text-primary-500 hover:text-primary-500'
+        >
+          See all posts
+        </Link>
+      </div>
     </div>
   );
 };
