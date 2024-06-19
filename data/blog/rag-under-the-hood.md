@@ -12,7 +12,7 @@ summary: 'Embark with us as we delve into the Retrieval-Augmented Generation (RA
 
 ## RAG: What is Retrieval-Augmented Generation?
 
-![RAG: Retrieval-Augmented Generation](/static/blogs/rag-under-the-hood/rag-definition.png)
+![RAG: Retrieval-Augmented Generation](/static/blogs/rag-under-the-hood/rag-banner.png)
 
 **Retrieval Augmented Generation**, or `RAG` or RAG for short, is a powerful technique that takes Large Language Models (LLMs) to the next level. Instead of relying solely on what they already know, RAG connects LLMs to a universe of information beyond their initial training, allowing them to access and process the latest and most relevant data.
 
