@@ -3,7 +3,7 @@ title: 'RAG: Unveiling the Magic Under the Hood'
 date: '2024-06-19'
 tags: ['Generative AI', 'LLMs', 'RAG']
 draft: false
-summary: 'Let's dive deeper into the Retrieval-Augmented Generation (RAG) world and uncover the magic under the hood. We'll explore the core concepts of RAG and break down the process step-by-step.'
+summary: 'Embark with us as we delve into the Retrieval-Augmented Generation (RAG) world, uncovering the magic under the hood. We aim to explore the core concepts of RAG and dissect the process step-by-step.'
 ---
 
 > In the previous [blog](/blog/generative-ai-and-llm-overview), we explored the core concepts of generative AI and Large Language Models (LLMs). Now, let's dive deeper into the Retrieval-Augmented Generation (RAG) world and uncover the magic under the hood.
