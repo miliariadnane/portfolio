@@ -13,6 +13,22 @@ export interface Talk {
 
 export const talks: Talk[] = [
     {
+        title: 'Harnessing the power of LLMs and RAG in Java ecosystem: A Practical Exploration of RAG using LangChain4j and Spring AI',
+        slug: 'harnessing-the-power-of-llms-and-rag-in-java-ecosystem-',
+        tags: ['Java', 'RAG', 'LLM', 'LangChain4j', 'Spring AI'],
+        date: '2024-04-29',
+        description:
+        'The talk focused on the capabilities of Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) within the Java ecosystem. We simplified complex ideas such as Generative AI and LLMs, providing a strong conceptual base. Following that, we delved into how RAG is revolutionizing the creation of intelligent applications with LLMs. Key components of RAG were demonstrated in action, offering insights into how things work under the hood and the main building blocks.The session ended with a live demo, bringing these concepts to life with a practical RAG application built using Java, Spring Boot, and two powerful frameworks: LangChain4j and Spring AI.',
+        watchTalk: '',
+        demosList: [
+            'https://github.com/miliariadnane/onboardease-rag-training-assistant',
+            'https://github.com/miliariadnane/moroccan-cooking-companion',
+            'https://github.com/miliariadnane/spring-boot-doc-rag-bot'
+        ],
+        slides: 'https://docs.google.com/presentation/d/1lSVEccXsK1Dh0A2wgF5PdlFrYt6DM--QQ3j5_YhBloA/edit?usp=sharing',
+        banner: '/static/talks/transperfect-talk/llm-rag.png',
+    },
+    {
         title: 'Java for ML ? Yes, It’s possible ! A 101 Hands-On guide to deep learning',
         slug: 'java-for-ml-yes-its-possible-a-101-hands-on-guide-to-deep-learning',
         tags: ['Java', 'Deep Learning', 'Machine Learning', 'Image Classification', 'CNN'],
