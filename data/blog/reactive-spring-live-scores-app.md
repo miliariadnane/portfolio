@@ -3,7 +3,7 @@ title: 'Reactive Programming with Reactive Spring: Building a Live Football Scor
 date: '2024-12-18'
 tags: ['Spring Boot', 'Reactive Programming', 'WebFlux', 'Reactor']
 draft: false
-summary: ''
+summary: 'Explore the world of reactive programming with Spring Boot and WebFlux, and build a real-time live football scores app.'
 ---
 
 > Real-time applications are becoming increasingly demanding of modern systems, especially in event-driven architectures 
